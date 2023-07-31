@@ -1,12 +1,19 @@
 Package: ssnorms
-Title: What the Package Does (One Line, Title Case)
+Title: Calculates Norms for Sports Science Metrics
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+    person("Matthew", "Amoako", , "mamoako@nd.edu", role = c("aut", "cre"))
+Description: This package can calculate percentiles for a multitude of sports science metrics. The calcnorm function calculates 
+  percentiles for entire teams while the idnorm function calculates percentiles for a specific individual.
+License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Imports: 
+    dplyr,
+    kableExtra
+URL: https://github.com/MattStats/ssnorms
+BugReports: https://github.com/MattStats/ssnorms/issues
